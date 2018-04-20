@@ -86,8 +86,9 @@ h5 {
 section.intro, section.features-extra, section.sign-up {
   background: #fff; }
 
-section.features, section.blog-intro, section.blog {
+section.features, section.blog-intro, section.blog, section.team {
   background: #F3F4F8; }
+
 
 /* ==========================================================================
 Global Styles
@@ -405,6 +406,30 @@ Intro
 .intro-content {
   display: inline-block;
   width: 80%; }
+
+/* ==========================================================================
+Team
+========================================================================== */
+
+.team .avatar {
+    width: 82px;
+    height: 82px;
+    margin: 0 auto;
+  display: inline-block;
+  vertical-align: top;
+    overflow: hidden;
+    border-radius: 50%;
+    border: solid 3px #fff;
+    background-color: #fff; }
+    .team .avatar img {
+      width: 82px;
+      height: auto; }
+
+
+.team-content {
+  display: inline-block;
+  width: 80%; }
+
 
 /* ==========================================================================
 Features-stack
